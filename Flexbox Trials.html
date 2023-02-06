@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Flexbox Trials</title>
+    <style>
+header{
+    background-color: rgb(58, 17, 17);
+    color:aquamarine;
+    padding: 20px;
+    text-align: center;
+}
+section{
+    display:flex;
+}
+nav{
+    flex:1;
+    padding: 20px;
+    background-color: antiquewhite;
+}
+ul{
+    list-style-type: none;
+    background-color: beige;
+}
+aside{
+    flex:3;
+    background-color: azure;
+    padding:10px;
+}
+Footer{
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(173, 207, 196);
+    color:rgb(133, 121, 121);
+}
+    </style>
+</head>
+<body>
+  <h1>FLEXBOX LAYOUT</h1> 
+  <header>
+    <h1>Cities</h1>
+</header> 
+<section>
+    <nav>
+        <ul>
+            <li><a href="#">London</a></li>
+            <li><a href="#">Paris</a></li>
+            <li><a href="#">Tokyo</a></li>
+        </ul>
+    </nav>
+    <aside>
+       <h1>London</h1> 
+       <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+       <p>Standing on the River Thanmes, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londonium.</p>
+    </aside>
+</section>
+  <footer>
+    <p>Footer</p>
+</footer>
+</body>
+</html>
